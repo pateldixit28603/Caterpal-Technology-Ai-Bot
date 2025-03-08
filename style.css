@@ -1,0 +1,86 @@
+/* Custom styles for a modern, appealing UI */
+
+/* Chat Window */
+#chat-window {
+    /* Remove fixed height; let the parent container define the max-height */
+    /* height: 450px; */
+
+    /* Keep the rest for text wrapping and background color */
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    /* We'll rely on .overflow-auto in the HTML for the scrollbar */
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+/* Message styling */
+.message {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    max-width: 80%;
+    /* Preserve line breaks and wrap text to prevent overflow */
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+.user-message {
+    background-color: #edf2f7;
+    color: #2d3748;
+    align-self: flex-end;
+    text-align: right;
+}
+.bot-message {
+    background-color: #e6fffa;
+    color: #276749;
+    align-self: flex-start;
+    text-align: left;
+}
+
+/* Spinner for loading */
+.spinner {
+    margin: 1rem auto;
+}
+
+/* Navbar styling */
+.navbar {
+    padding: 1rem;
+}
+.navbar-brand {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #34d399, #60a5fa);
+    color: #ffffff;
+    padding: 4rem 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.hero p {
+    font-size: 1.25rem;
+}
+
+/* Card and modal headers */
+.card-header,
+.modal-header {
+    font-weight: bold;
+}
+
+/* Quick Action Buttons (if needed) */
+.quick-question {
+    margin: 0.25rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
