@@ -1,5 +1,7 @@
 🤖 AI Chatbot for Caterpal 🍽️
+
 🚀 Enhancing Customer Experience in Online Food Ordering
+
 📌 Overview
 This AI-powered chatbot is designed to seamlessly integrate with Caterpal's platform and partner restaurant websites. It provides intelligent, context-aware assistance to users, helping them navigate menus, pricing, and service options with ease. Leveraging OpenAI's GPT-based NLP engine, this chatbot ensures a personalized and efficient ordering experience for customers.
 
